@@ -1,0 +1,81 @@
+
+body {
+    overflow: hidden;
+    font-family: 'Acme',Arial;
+    background-image: url("study.jfif")!important;
+    height: 100vh !important;
+    }
+    
+    .main {
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    }
+    
+    #lcshdr{
+        background-color:rgb(216, 216, 216);
+        padding:5px;
+        margin: 5px;
+        border: black 3px solid;
+    }
+
+    #lcshdr h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        font-weight: bolder;
+        padding: 15px;
+        margin: 6px;
+        text-align: center;
+    }
+    #lcshdr h2:hover{
+        color: #000;
+    }
+
+    #lcshdr h3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        padding: 15px;
+        margin: 6px;
+        text-align: center;
+    }
+    #logo{
+     margin-left: 20px;
+     margin-top: 5px;
+     margin-bottom: 0px;
+     width: 10%;
+    }
+
+    .main div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(216, 216, 216);
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    position: relative;
+    border: black 3px solid;
+    box-shadow: 0 15px 5px -10px rgba(31, 31, 31, 0.5);
+    text-align: center;
+    font-size: 50px;
+    }
+
+    .clockpart
+    {
+    padding:0px !important;
+    min-width:60px !important;
+    
+    display: inline-block;
+    }
+
+    .clockmin
+    {
+    padding:0px !important;
+    width:5px !important;
+    min-width:5px !important;
+    
+    display: inline-block;
+    }
+    
